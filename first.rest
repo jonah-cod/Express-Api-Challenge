@@ -9,3 +9,10 @@ GET http://localhost:5000/users/users
 GET http://localhost:5000/user/ccarrattd@trellian.com
 ###
 POST  http://localhost:5000/login 
+
+Content-Type: application/json
+
+{
+ "email": "ccarrattd@trellian.com",
+  "Password": "uZacSZf"   
+} 
